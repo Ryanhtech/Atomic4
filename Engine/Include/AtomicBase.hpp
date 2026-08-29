@@ -9,7 +9,7 @@
 #include <AtomicGame.hpp>
 
 #ifndef __ATOMIC_BASE_HPP__
-#define __ATOMIB_BASE_HPP__
+#define __ATOMIC_BASE_HPP__
 
 namespace Atomic
 {
