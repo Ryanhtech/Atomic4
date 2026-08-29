@@ -8,6 +8,9 @@ target_sources(AtomicLibrary
     PRIVATE
     Source/main.cpp
 
+    # Base
+    Source/Base/AtomicBase.cpp
+
     # Math
     Source/Math/Vector3D.cpp
 
@@ -18,6 +21,12 @@ target_sources(AtomicLibrary
             Include
         FILES
             Include/AtomicEngine.hpp
+
+            # Base
+            Include/AtomicBase.hpp
+
+            # Game
+            Include/AtomicGame.hpp
 
             # Math
             Include/AtomicMath.hpp
