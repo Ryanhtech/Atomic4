@@ -8,6 +8,9 @@ target_sources(AtomicLibrary
     PRIVATE
     Source/main.cpp
 
+    # Math
+    Source/Math/Vector3D.cpp
+
     PUBLIC
         FILE_SET atomic_library_headers
         TYPE HEADERS
@@ -15,4 +18,7 @@ target_sources(AtomicLibrary
             Include
         FILES
             Include/AtomicEngine.hpp
+
+            # Math
+            Include/AtomicMath.hpp
 )
