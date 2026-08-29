@@ -14,7 +14,7 @@ namespace Atomic
          * @param y y value.
          * @param z z value.
          */
-        Vector3D(float x = 0.0f, float y = 0.0f, float z = 0.0f);
+        Vector3D(float x, float y, float z);
 
         /**
          * @brief Destroys the Vector3D instance.
@@ -24,11 +24,11 @@ namespace Atomic
         // -- Operators --
         Vector3D operator*(int other);
         Vector3D operator*(float other);
-    
-    private:
-        float _x;
-        float _y;
-        float _z;
+
+        // -- Values --
+        float x;
+        float y;
+        float z;
     };
 }
 
