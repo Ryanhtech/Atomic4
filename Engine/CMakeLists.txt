@@ -34,3 +34,4 @@ target_sources(AtomicLibrary
 
 # Add libraries to the engine
 target_link_libraries(Glad)
+target_link_libraries(glfw)

@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 #########
 
-project(AtomicExeProject)
+project(AtomicProject)
 
 add_subdirectory(ThirdParty)
 add_subdirectory(Engine)
