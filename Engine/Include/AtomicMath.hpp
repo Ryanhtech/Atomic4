@@ -1,3 +1,11 @@
+/**
+ * @file AtomicMath.hpp
+ * @author your name (you@domain.com)
+ * @brief AtomicMath implementation
+ * 
+ * @copyright Copyright (c) 2026 Ryanhtech Labs.
+ * 
+ */
 
 #include <cinttypes>
 
