@@ -15,5 +15,15 @@ Atomic::Game::Game()
 
 Atomic::Game::~Game()
 {
-    
+
+}
+
+void Atomic::Game::SetClearColour(Atomic::RGB colour)
+{
+    _clearColour = colour;
+}
+
+Atomic::RGB Atomic::Game::GetClearColour()
+{
+    return _clearColour;
 }
