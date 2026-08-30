@@ -11,6 +11,8 @@ target_sources(AtomicLibrary
     # Base
     Source/Base/Base.cpp
 
+    # Debug
+
     # Game
     Source/Game/Game.cpp
 
@@ -28,6 +30,9 @@ target_sources(AtomicLibrary
 
             # Base
             Include/AtomicBase.hpp
+
+            # Debug
+            Include/AtomicDebug.hpp
 
             # Game
             Include/AtomicGame.hpp
