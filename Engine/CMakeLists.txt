@@ -9,9 +9,13 @@ target_sources(AtomicLibrary
     Source/main.cpp
 
     # Base
-    Source/Base/AtomicBase.cpp
+    Source/Base/Base.cpp
+
+    # Game
+    Source/Game/Game.cpp
 
     # Math
+    Source/Math/RGB.cpp
     Source/Math/Vector3D.cpp
 
     PUBLIC
