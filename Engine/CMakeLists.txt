@@ -31,3 +31,6 @@ target_sources(AtomicLibrary
             # Math
             Include/AtomicMath.hpp
 )
+
+# Add libraries to the engine
+target_link_libraries(Glad)
