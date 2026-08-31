@@ -29,7 +29,7 @@ namespace Atomic
          * @see Atomic::Log::Info
          */
         static void Debug(std::wstring component, std::wstring message);
-
+        
         /**
          * @brief Logs an info message.
          * 
@@ -51,7 +51,7 @@ namespace Atomic
          * @see Atomic::Log::Info
          */
         static void Error(std::wstring component, std::wstring message);
-
+        
         /**
          * @brief Logs a fatal error message.
          * 
