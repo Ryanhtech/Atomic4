@@ -7,4 +7,4 @@ project(AtomicProject)
 
 add_subdirectory(ThirdParty)
 add_subdirectory(Engine)
-add_subdirectory(Launcher)
+add_subdirectory(Game)

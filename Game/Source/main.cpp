@@ -1,6 +1,6 @@
 /**
- * @file launcher.cpp
- * @brief Main launcher file.
+ * @file main.cpp
+ * @brief Main game file.
  * 
  * @copyright Copyright (c) 2026 Ryanhtech Labs.
  * 
