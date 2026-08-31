@@ -7,3 +7,13 @@
  */
 
 #include "DevelGame.hpp"
+
+DevelGame::DevelGame::DevelGame()
+{
+
+}
+
+DevelGame::DevelGame::~DevelGame()
+{
+
+}
