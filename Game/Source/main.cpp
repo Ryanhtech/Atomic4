@@ -10,8 +10,16 @@
 
 #include <iostream>
 
+#include "Assets/Game/DevelGame.hpp"
+
 int main()
 {
-    Atomic::Log::Info(L"main", L"Hello, World!\n");
-    return 0;
+    // Instantiate our game, and start the engine
+    DevelGame::DevelGame *develGame = new DevelGame::DevelGame();
+    int exitCode = Atomic::Base::AtomicStart(develGame);
+
+    // Don't forget to delete the game once we are finished
+    delete develGame;
+
+    return exitCode;
 }
