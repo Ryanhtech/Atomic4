@@ -53,5 +53,5 @@ void Atomic::Log::DisplayMessage(std::wstring prefix, std::wstring component, st
     std::strftime(formattedTime, 127, "%d/%m/%Y %H:%M:%S", localTime);
 
     // Print the log message.
-    std::wcout << std::wstring(&formattedTime[0], &formattedTime[std::strlen(formattedTime)]) + L" " + prefix + L" [" + component + L"]: " + message;
+    std::wcout << std::wstring(&formattedTime[0], &formattedTime[std::strlen(formattedTime)]) + L" [" + component + L"] " + prefix + L": " + message;
 }

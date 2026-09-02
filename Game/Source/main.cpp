@@ -12,6 +12,6 @@
 
 int main()
 {
-    std::cout << "Hello, World!\n";
+    Atomic::Log::Info(L"main", L"Hello, World!\n");
     return 0;
 }
