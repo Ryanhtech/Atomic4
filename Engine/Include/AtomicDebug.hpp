@@ -6,6 +6,10 @@
  * 
  */
 
+#include <chrono>
+#include <cstring>
+#include <ctime>
+#include <iostream>
 #include <string>
 
 #ifndef __ATOMIC_DEBUG_HPP__
@@ -58,6 +62,9 @@ namespace Atomic
          * @see Atomic::Log::Info
          */
         static void Fatal(std::wstring component, std::wstring message);
+    
+    private:
+        static void DisplayMessage(std::wstring prefix, std::wstring component, std::wstring message);
     };
 } // namespace Atomic
 

@@ -6,8 +6,9 @@
  * 
  */
 
-#include <iostream>
 #include <AtomicEngine.hpp>
+
+#include <iostream>
 
 int main()
 {

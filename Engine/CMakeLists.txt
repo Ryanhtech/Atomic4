@@ -12,6 +12,7 @@ target_sources(AtomicLibrary
     Source/Base/Base.cpp
 
     # Debug
+    Source/Debug/Log.cpp
 
     # Game
     Source/Game/Game.cpp
