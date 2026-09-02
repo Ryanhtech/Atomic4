@@ -7,10 +7,15 @@
  */
 
 #include <AtomicBase.hpp>
+#include <GLFW/glfw3.h>
 
 int Atomic::Base::AtomicStart(Atomic::Game *game)
 {
+    // Log the copyright
     LogCopyright();
+
+
+
     return 0;
 }
 

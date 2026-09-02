@@ -21,6 +21,9 @@ target_sources(AtomicLibrary
     Source/Math/RGB.cpp
     Source/Math/Vector3D.cpp
 
+    # Window
+    Source/Window/GameWindow.cpp
+
     PUBLIC
         FILE_SET atomic_library_headers
         TYPE HEADERS
@@ -40,8 +43,11 @@ target_sources(AtomicLibrary
 
             # Math
             Include/AtomicMath.hpp
+
+            # Window
+            Include/AtomicWindow.hpp
 )
 
 # Add libraries to the engine
-target_link_libraries(Glad)
-target_link_libraries(glfw)
+target_link_libraries(AtomicLibrary Glad)
+target_link_libraries(AtomicLibrary glfw)
